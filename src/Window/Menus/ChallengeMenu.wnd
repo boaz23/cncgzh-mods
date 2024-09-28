@@ -378,53 +378,6 @@ WINDOW
           END
           CHILD
           WINDOW
-            WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 152 198,
-                         BOTTOMRIGHT: 179 225,
-                         CREATIONRESOLUTION: 800 600;
-            NAME = "ChallengeMenu.wnd:GeneralPosition0";
-            STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
-            STYLE = PUSHBUTTON+MOUSETRACK;
-            SYSTEMCALLBACK = "[None]";
-            INPUTCALLBACK = "[None]";
-            TOOLTIPCALLBACK = "[None]";
-            DRAWCALLBACK = "[None]";
-            FONT = NAME: "Arial", SIZE: 8, BOLD: 0;
-            HEADERTEMPLATE = "LabelSmall";
-            TOOLTIPDELAY = -1;
-            TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
-                        DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
-                        HILITE:   3 196 0 255, HILITEBORDER:   0 66 4 255;
-            ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
-                              IMAGE: NoImage, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
-                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-            DISABLEDDRAWDATA = IMAGE: PlayerStartDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
-                               IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
-                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-            HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
-                             IMAGE: NoImage, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
-                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
-                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-          END
-          CHILD
-          WINDOW
             WINDOWTYPE = USER;
             SCREENRECT = UPPERLEFT: 199 379,
                          BOTTOMRIGHT: 747 493,
@@ -962,8 +915,55 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 500 222,
-                         BOTTOMRIGHT: 527 249,
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
+                         CREATIONRESOLUTION: 800 600;
+            NAME = "ChallengeMenu.wnd:GeneralPosition0";
+            STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
+            STYLE = PUSHBUTTON+MOUSETRACK;
+            SYSTEMCALLBACK = "[None]";
+            INPUTCALLBACK = "[None]";
+            TOOLTIPCALLBACK = "[None]";
+            DRAWCALLBACK = "[None]";
+            FONT = NAME: "Arial", SIZE: 8, BOLD: 0;
+            HEADERTEMPLATE = "LabelSmall";
+            TOOLTIPDELAY = -1;
+            TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                        DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                        HILITE:   3 196 0 255, HILITEBORDER:   0 66 4 255;
+            ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                              IMAGE: NoImage, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+            DISABLEDDRAWDATA = IMAGE: PlayerStartDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                               IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                               IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+            HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                             IMAGE: NoImage, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                             IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+          END
+          CHILD
+          WINDOW
+            WINDOWTYPE = PUSHBUTTON;
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition1";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1009,8 +1009,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 624 198,
-                         BOTTOMRIGHT: 651 225,
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition2";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1056,8 +1056,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 220 159,
-                         BOTTOMRIGHT: 247 186,
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition3";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1103,8 +1103,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 663 218,
-                         BOTTOMRIGHT: 690 245,
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition4";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1150,8 +1150,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 102 186,
-                         BOTTOMRIGHT: 129 213,
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition5";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1197,8 +1197,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 438 206,
-                         BOTTOMRIGHT: 465 233,
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition6";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1244,8 +1244,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 691 183,
-                         BOTTOMRIGHT: 718 210,
+            SCREENRECT = UPPERLEFT: 0 0,
+                         BOTTOMRIGHT: 0 0,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition7";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1338,8 +1338,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 641 176,
-                         BOTTOMRIGHT: 668 203,
+            SCREENRECT = UPPERLEFT: 293 228,
+                         BOTTOMRIGHT: 320 255,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition9";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1385,8 +1385,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 292 199,
-                         BOTTOMRIGHT: 319 226,
+            SCREENRECT = UPPERLEFT: 132 128,
+                         BOTTOMRIGHT: 159 155,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition10";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;
@@ -1432,8 +1432,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = PUSHBUTTON;
-            SCREENRECT = UPPERLEFT: 293 228,
-                         BOTTOMRIGHT: 320 255,
+            SCREENRECT = UPPERLEFT: 661 176,
+                         BOTTOMRIGHT: 688 203,
                          CREATIONRESOLUTION: 800 600;
             NAME = "ChallengeMenu.wnd:GeneralPosition11";
             STATUS = ENABLED+IMAGE+RIGHT_CLICK+CHECK_LIKE;

@@ -625,8 +625,102 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 553 545,
-                     BOTTOMRIGHT: 603 589,
+        SCREENRECT = UPPERLEFT: 538 545,
+                     BOTTOMRIGHT: 578 584,
+                     CREATIONRESOLUTION: 800 600;
+        NAME = "ControlBar.wnd:ButtonCommand16";
+        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED;
+        STYLE = PUSHBUTTON+MOUSETRACK;
+        SYSTEMCALLBACK = "[None]";
+        INPUTCALLBACK = "[None]";
+        TOOLTIPCALLBACK = "[None]";
+        DRAWCALLBACK = "[None]";
+        FONT = NAME: "Arial", SIZE: 8, BOLD: 0;
+        HEADERTEMPLATE = "[NONE]";
+        TOOLTIPDELAY = 1;
+        TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                    DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                    HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+        ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                          IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+        DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                           IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+        HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                         IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+      END
+      CHILD
+      WINDOW
+        WINDOWTYPE = PUSHBUTTON;
+        SCREENRECT = UPPERLEFT: 538 494,
+                     BOTTOMRIGHT: 578 533,
+                     CREATIONRESOLUTION: 800 600;
+        NAME = "ControlBar.wnd:ButtonCommand15";
+        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
+        STYLE = PUSHBUTTON+MOUSETRACK;
+        SYSTEMCALLBACK = "[None]";
+        INPUTCALLBACK = "[None]";
+        TOOLTIPCALLBACK = "[None]";
+        DRAWCALLBACK = "[None]";
+        FONT = NAME: "Arial", SIZE: 8, BOLD: 0;
+        HEADERTEMPLATE = "[NONE]";
+        TOOLTIPDELAY = 1;
+        TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                    DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                    HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+        ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                          IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+        DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                           IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                           IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+        HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                         IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                         IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+      END
+      CHILD
+      WINDOW
+        WINDOWTYPE = PUSHBUTTON;
+        SCREENRECT = UPPERLEFT: 493 545,
+                     BOTTOMRIGHT: 533 584,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand14";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED;
@@ -672,8 +766,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 553 494,
-                     BOTTOMRIGHT: 603 538,
+        SCREENRECT = UPPERLEFT: 493 494,
+                     BOTTOMRIGHT: 533 533,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand13";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -719,8 +813,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 498 545,
-                     BOTTOMRIGHT: 548 589,
+        SCREENRECT = UPPERLEFT: 448 545,
+                     BOTTOMRIGHT: 488 584,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand12";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -766,8 +860,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 498 494,
-                     BOTTOMRIGHT: 548 538,
+        SCREENRECT = UPPERLEFT: 448 494,
+                     BOTTOMRIGHT: 488 533,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand11";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -813,8 +907,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 443 545,
-                     BOTTOMRIGHT: 493 589,
+        SCREENRECT = UPPERLEFT: 403 545,
+                     BOTTOMRIGHT: 443 584,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand10";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -860,8 +954,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 443 494,
-                     BOTTOMRIGHT: 493 538,
+        SCREENRECT = UPPERLEFT: 403 494,
+                     BOTTOMRIGHT: 443 533,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand09";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -907,8 +1001,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 388 545,
-                     BOTTOMRIGHT: 438 589,
+        SCREENRECT = UPPERLEFT: 358 545,
+                     BOTTOMRIGHT: 398 584,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand08";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -954,8 +1048,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 388 494,
-                     BOTTOMRIGHT: 438 538,
+        SCREENRECT = UPPERLEFT: 358 494,
+                     BOTTOMRIGHT: 398 533,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand07";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -1001,8 +1095,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 333 545,
-                     BOTTOMRIGHT: 383 589,
+        SCREENRECT = UPPERLEFT: 313 545,
+                     BOTTOMRIGHT: 353 584,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand06";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -1048,8 +1142,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 333 494,
-                     BOTTOMRIGHT: 383 538,
+        SCREENRECT = UPPERLEFT: 313 494,
+                     BOTTOMRIGHT: 353 533,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand05";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -1095,8 +1189,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 278 545,
-                     BOTTOMRIGHT: 328 589,
+        SCREENRECT = UPPERLEFT: 268 545,
+                     BOTTOMRIGHT: 308 584,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand04";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -1142,8 +1236,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 278 494,
-                     BOTTOMRIGHT: 328 538,
+        SCREENRECT = UPPERLEFT: 268 494,
+                     BOTTOMRIGHT: 308 533,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand03";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -1190,7 +1284,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
         SCREENRECT = UPPERLEFT: 223 545,
-                     BOTTOMRIGHT: 273 589,
+                     BOTTOMRIGHT: 263 584,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand02";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
@@ -1237,7 +1331,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
         SCREENRECT = UPPERLEFT: 223 494,
-                     BOTTOMRIGHT: 273 538,
+                     BOTTOMRIGHT: 263 533,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand01";
         STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
